@@ -1,3 +1,14 @@
-import UIKit
+class SomeClass {
+    var someProperty: Any = 1
+    func someMethod() {
+        //some task...
+    }
+}
 
-var str = "Hello, playground"
+let myInstance: SomeClass = SomeClass()
+
+myInstance.someProperty = 100
+print(myInstance.someProperty)
+
+myInstance.someMethod()
+
