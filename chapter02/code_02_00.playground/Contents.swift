@@ -1,5 +1,9 @@
 import Swift
 
+// p66
+// let var: String = "string"
+
+// p67
 struct BasicInformation {
     let name: String
     var age: Int
@@ -22,3 +26,8 @@ dump(yagomInfo)
 print(yagom)
 
 dump(yagom)
+
+// p68
+let name: String = "charles"
+print("My name is \(name)")
+
